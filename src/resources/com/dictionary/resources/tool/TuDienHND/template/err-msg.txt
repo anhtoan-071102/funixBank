@@ -1,0 +1,5 @@
+Cannot find the Java interpreter.
+If Java was not installed on your system, please download 
+it from http://java.sun.com
+If it has been installed but cannot be found, please set 
+the PATH environment correctly.

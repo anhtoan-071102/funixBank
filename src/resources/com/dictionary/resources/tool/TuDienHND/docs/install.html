@@ -1,0 +1,223 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<head>
+<title>Vietnamese-English-French-German dictionary</title>
+</head>
+<BODY>
+
+<table width=100% border=5 bgcolor="#C0FF00">
+<tr>
+<td width=33% align=center> <a href="http://www.informatik.uni-leipzig.de/~duc"><b>Home</b></a> </td>
+<td width=33% align=center> <a href="mailto:duc@informatik.uni-leipzig.de"><b>Send email</b></a> </td>
+<td width=* align=center> <a href="http://jdictd.sourceforge.net/cgi-bin/yabb/YaBB.cgi"><b>Forum</b></a> </td>
+</tr>
+</table>
+
+<h1 align=center> <a href="http://www.informatik.uni-leipzig.de/~duc/Dict/" targer="_parent">Use the dictionary online</a></h1>
+
+<hr>
+
+<h1 align=center>Use the dictionary offline</h1>
+
+You can use the dictionaries offline either in client-server mode (similar to the Web interface; dictionary viewed in a Web browser) or in desktop mode. The desktop client is rather rudimentary, but easier to use. A separate document describes <b><a href="desktop.html">how to install and use the desktop dictionary</a></b>. Installing the dictionary in client-server mode is described below.
+
+<h3>Quick Installation (Windows only)</h3>
+
+This is the guide to installing the English<->Vietnamese dictionary on
+the Windows platform (Win9x, NT, XP...).
+
+<ul>
+
+<li> Download <a href="TD_AnhViet.zip">TD_AnhViet.zip</a> (6.5 MB). This
+is the Java Runtime Environment (JRE) together with the
+English-Vietnamese and Vietnamese-English dictionary
+
+<li> Extract that file to a directory on your hard disk, for example <code>C:\java</code>.
+Be sure to keep the directory structure. You should get a directory <code>C:\java\dict\</code>
+which contains a file <code>startdict.bat</code> and a subdirectory <code>EV</code>, among
+others.
+
+<li> Double-click on the file <code>startdict.bat</code>, the following window should appear: <br>
+<center><img src="control1.jpg"></center>
+
+<li> Click the button "Start" to start the server.
+
+<li> Start a Web browser like Netscape or Internet Explorer and open the address <code>http://localhost:8080</code>.
+You will be able to use 2 dictionaries: Anh-Viet and Viet-Anh
+
+<li> When you are done, click the "Quit" button to stop the program.
+
+</ul>
+
+<h4> Install other dictionaries </h4>
+
+Assume that you have installed the English<->Vietnamese dictionary in the directory
+<code>C:\java</code>. Here is how you can add the French<->Vietnamese dictionaries.
+
+<ul>
+
+<li> Download the French dictionaries from the links below. You should get the file <code>WebDict3.zip</code>
+
+<li> Extract that file to the directory <code>C:\java</code>. Now the directory <code>C:\java\dict\</code>
+should contain another subdirectory <code>FV</code>. Moreover, you see a file <code>fv.ini</code> in
+<code>C:\java\dict\</code>
+
+<li> Double-click on the file <code>startdict.bat</code> to start the program. The above window appears.
+
+<li> Click the button "Add". Now a file dialog should pop up. Use that file dialog to select the file
+<code>fv.ini</code> in <code>C:\java\dict\</code>. The program now looks like this:<br>
+<center><img src="control2.jpg"></center>
+
+<li> Now click the button "Start" to start the server and open the address <code>http://localhost:8080</code>
+in a browser. You should see that 4 dictionaries are availaible now: Anh-Viet, Viet-Anh, Phap-Viet and Viet-Phap.
+
+<li> When you are done, click the "Quit" button to stop the program.
+
+</ul>
+
+If you do not want to manually add the French dictionaries every time
+you start the program, you can edit the startup file
+<code>startdict.bat</code> and add <code>fv.ini</code> to the end of
+the first line. The file should then be as follows:
+
+<pre>start jre\bin\jre -Dmatches=15 -Dhttp_port=8080 -mx32M -cp vietdict28.jar vietdict.server.VietdictServer ev.ini fv.ini</pre>
+
+<h3>Custom Installation</h3>
+
+If you are not using Windows you need to download the server and the
+databases separately. Here are the necessary steps:
+
+<ol>
+<li> Check that a Java interpreter is installed on your computer.
+	(Open a command window, e.g., xterm on Unix or DOS box on Windows, and type
+	"java -version" and see if the version number of Java is printed.) If
+	Java is not yet installed, download the Java Runtime Environment
+	from <a href="http://java.sun.com/products/">java.sun.com</a> and
+	install it first
+
+<li> Download <a href="WebDict1.zip"> the server program</a> (0.25 MB)
+
+<li> Download at least one of the databases (the other can be
+    installed optionally.)
+    <ul>
+      <li> <a href="WebDict2.zip">English<->Vietnamese database</a> (4.5 MB)
+
+      <li> <a href="WebDict3.zip">French<->Vietnamese database</a> (4.5 MB)
+
+      <li> <a href="WebDict13.zip">German<->Vietnamese database</a> (3 MB)
+
+	  <!--
+      <li> <a href="WebDict9.zip">Dien co van hoc</a> (0.25 MB)
+      -->
+
+      <li> <a href="WebDict14.zip">Norwegian-Vietnamese database</a> (0.8 MB)
+
+      <li> <a href="WebDict10.zip">Monolingual Vietnamese dictionary</a>
+	  (1.8 MB) (Includes the old "Dien co van hoc")
+
+      <li> <a href="WebDict5.zip">English-English database</a> (8 MB)
+	  (WordNet 1.6 database from Princeton)
+
+      <li> <a href="WebDict11.zip">Free On-Line Dictionary of Computing</a> version September 2003 (2 MB)
+
+      <li> <a href="WebDict4.zip">English<->German database</a> (3 MB)
+
+    </ul>
+
+<li> Extract the ZIP files to some directory, say
+<code>/home/nvt/VietDictionary</code>. Be sure to keep the directory
+structure. You should see in <code>/home/nvt/VietDictionary</code> a
+subdirectory <code>dict</code> </li>
+
+<li> Start the server with the script <code>vietdict.bat</code> in the
+directory <code>dict</code>
+
+<li>While the server is running it can be accessed from any Web browser at the URL
+<code>http://localhost:8080</code>
+
+<li> When you are done, run vd-stop.bat to stop the program.
+
+</ol>
+
+<h3>Configuring the dictionary server</h3>
+
+To start the server without the Graphical User Interface, please edit the
+startup script (<code>startdict.bat</code> or <code>vietdict.bat</code>) and
+change <code>-Ddaemon=false</code> to  <code>-Ddaemon=true</code>.
+
+<p> If you want to change the appearance of the output (font face,
+size, color etc.), you can edit the template <code>result.html</code>.
+See the file <code>result2.html</code> for an example. Basically, you
+can edit the following style elements: <code>dict</code> (the name of
+the dictionary), <code>def</code> (the word definition),
+<code>pos</code> (the part.of-speech of a word), <code>ex</code> (sample
+usage), <code>trans</code> (translation of the example),
+<code>idioms</code> (list of idioms), <code>idiom</code> (idiomatic
+use). Moreover, you can include a background image for the page,
+or add some links or images to the output of the program.
+
+<h3>Trouble-shooting</h3>
+
+If you have trouble to get the program running, please <a
+href="faq.html">consult our FAQ first</a>.  If you still cannot find
+the solution to your problem there, please use <a
+href="http://jdictd.sourceforge.net/cgi-bin/yabb/YaBB.cgi">our
+forum</a> to post your questions (Please be as specific as possible:
+what is the problem? what have downloaded? how is your directory
+structure look like?  what is the output when starting the program in
+debug mode? etc.)
+
+<h3>About the program</h3>
+
+The databases are in the format used by the <a
+href="http://www.dict.org">DICT protocol</a>, i.e., they can be used
+with a <a href="http://www.dict.org/links.html">DICT server</a>. Some
+index files may need resorting because the server implementations of
+the DICT protocol (except my <a href="../Java/JDictd/">JDictd</a>) do
+not use the correct collation sequences for the languages in question
+for searching.
+
+<p>
+
+Our dictionary program is extensible. It can use any dictionary database in
+<a href="http://www.dict.org/links.html">DICT format</a> (e.g., WordNet,
+Free Online Dictionary of Computing, or the free bilingual dictionaries
+on <a href="http://www.freedict.de/">www.freedict.de</a>).
+That is, you can download any dictionary of interest, write a
+2-lines ini file to tell the program where to find the new dictionary,
+and run the server with that dictionary. To compress/decompress the data
+files in DICTZIP format, the program <code>dictzip</code> can be used.
+That program can be compiled easily from the source on Linux/Unix. A
+<a href="Dictzip_win.zip">version for Windows</a> is also available.
+(dictzip is a command-line tool, please use it from a command windows!)
+
+<p>
+There is also a version for <a href="../Java/J2ME/index.html">Palm OS
+and WindowsCE/PocketPC</a>.
+
+<p>
+
+Developers may <a href="WebDict_src.zip">download the source code</a> of the program and develop it further.
+
+<h3>Copyright Notice</h3>
+
+Copyright &copy; 1997-2004 Ho Ngoc Duc and the Free Vietnamese Dictionary Project. All Rights Reserved.
+The dictionary databases may have specific licenses, please lookup the entry <i>00-database-info</i> for details.
+
+<p>
+The dictionary program, its source code and the dictionary databases are distributed under <a href="http://www.gnu.org/copyleft/gpl.html">GNU
+General Public License</a> as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+<p>
+Permission to use, copy, modify, and redistribute this software and its documentation for personal, non-commercial use is hereby granted provided that
+this copyright notice and appropriate documentation appears in all copies.
+
+<hr>
+<a href="http://www.informatik.uni-leipzig.de/~duc">
+Ho Ngoc Duc &lt;duc@informatik.uni-leipzig.de&gt;</a>
+
+</body>
+</html>

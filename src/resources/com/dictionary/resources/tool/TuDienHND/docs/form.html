@@ -1,0 +1,59 @@
+<HTML><HEAD><TITLE>Tu dien tieng Viet</TITLE>
+	<SCRIPT LANGUAGE="JavaScript" SRC="vietuni.js"></SCRIPT>
+ 	<STYLE type="text/css">
+	<!--
+	body,ol,input,select,td,span,div{font-family:"Times New Roman","Arial";font-size:11pt}
+	//-->
+	</STYLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY marginwidth="2" marginheight="2" topmargin="2" leftmargin="2" bgcolor="#B5DAF4" onload="document.f.word.focus();initVinaseekTyper(3,'utf8');">
+
+<FORM name=f method=GET action="/td" target="display">
+<b>Tra t&#x1EEB;:</b><br>
+<INPUT SIZE=15 NAME="word" onkeyUp='telexingVietUC(this,event);'><br>
+<b>S&#x1EED; d&#x1EE5;ng t&#x1EEB; &#x111;i&#x1EC3;n:</b><br>
+<select multiple name="db" size=13>
+  <option value=ev selected>Anh - Vi&#x1EC7;t
+  <option value=ve>Vi&#x1EC7;t - Anh
+  <option value=fv>Ph&#x00E1;p - Vi&#x1EC7;t
+  <option value=vf>Vi&#x1EC7;t - Ph&#x00E1;p
+  <option value=dv>&#x110;&#x1EE9;c - Vi&#x1EC7;t
+  <option value=vd>Vi&#x1EC7;t - &#x110;&#x1EE9;c
+  <option value=wn>WordNet 1.6
+  <option value=nv>Na Uy - Vi&#x1EC7;t
+  <option value=ru2vi>NgaViet
+  <option value=foldoc>Computing dictionary
+  <option value=vv>Vi&#x1EC7;t - Vi&#x1EC7;t
+  <option value=hv>H&#x00E1;n - Vi&#x1EC7;t
+  <option value=dwds>DWDS
+</select>
+<br>
+<b>Hi&#x1EC3;n th&#x1ECB; ti&#x1EBF;ng Vi&#x1EC7;t:</b><br>
+<select name="fmt">
+  <option value="u">Unicode
+  <option value="c">Comp. Unicode
+  <option value="7">VIQR
+  <option value="8">TCVN
+  <option value="3">VNI
+</select><br>
+<b>G&#x00F5; ti&#x1EBF;ng Vi&#x1EC7;t:</b><br>
+	<input type=radio name="k" value="telex" onFocus="setTypingMode(1);">
+	Telex &nbsp;
+	<input type=radio name="k" value="vni" onFocus="setTypingMode(2);">
+	VNI &nbsp;<br>
+	<input type=radio name="k" value="viqr" onFocus="setTypingMode(3);" checked> VIQR &nbsp;
+	<input type=radio name="k" value="off" onFocus="setTypingMode(0);">
+	OFF &nbsp;<br>
+<b><input type="SUBMIT" value="Submit"></b>&nbsp;
+<b><input type="RESET" value="Reset"></b>
+</FORM>
+
+<IFRAME name="MonthDisplay" src="JS/currentmonth.html" width="188" height="228" scrolling="no" frameborder=0></IFRAME>
+
+<p align="center">
+<a href="http://jdictd.sourceforge.net/cgi-bin/yabb/YaBB.cgi" target="_top">Forum</a> |
+<a href="http://jdictd.sourceforge.net/cgi-bin/fvdp.cgi" target="_top">Guestbook</a>
+</p>
+</BODY>
+</HTML>

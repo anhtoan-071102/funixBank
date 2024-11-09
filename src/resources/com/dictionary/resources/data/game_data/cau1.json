@@ -1,0 +1,456 @@
+{
+    "id": 1,
+    "title": "Blogging: Confessing to the world",
+    "text": "Some time ago a website highlighted the risks of public check-ins – online announcements of your whereabouts. The site’s point was blunt: you may think you are just telling the world, ‘Hey, I’m at this place’ – but you are also advertising your out-and-about-ness to all kinds of people everywhere – not all of them people you might like to bump into. This appeared to confirm the growing awareness that there might be a downside to all the frantic sharing the web has enabled. The vast new opportunities to publish any and every aspect of our lives to a potentially global audience hold out all sorts of tantalising possibilities: Wealth! Fame! So we plunge into the maelstrom of the internet, tossing confessions, personal photos and stories into the digital vortex. Too late we realise that the water is crowded and treacherous – and we are lost. \nDepressing? Perhaps, but don’t give up. This future has a map, drawn for us years ago by a reckless group of online pioneers. In the early days of the web, they sailed these waters and located all the treacherous shoals. They got fired from their jobs, found and lost friends and navigated celebrity’s temptations and perils – all long before the invention of social networking. These pioneers, the first wave of what we now call bloggers, have already been where the rest of us seem to be going. Before their tales scroll off our collective screen, it’s worth spending a little time with them. After all, those who cannot learn from history are doomed to repost it. \nIn January 1994, Justin Hall, a 19-year-old student, began posting to the ‘WWW’, as it was then known, something inhabited mostly by grad students, scientists and a handful of precocious teens like him. The web had been invented at Cern, the international physics lab in Switzerland, so researchers could more easily share their work. Hall saw something else: an opportunity to share his life. Link by link, he built a hypertext edifice of autobiography, a dense thicket of verbal self-exposure leavened with photos and art. In January 1996, on a dare, he began posting a daily blog, and readers flocked to the spectacle of a reckless young man pushing the boundaries of this new medium in every direction at once.\nHall’s ethos was absolute: cross his path and you could appear on his site; no topic was taboo. Certainly, this was the work of an exhibitionist, but there was also a rigour and beauty to his project that only a snob would refuse to call art. One day though, visitors to Hall’s site discovered his home page gone, replaced with a single anguished video titled Dark Night. His story tumbled out; he’d fallen spectacularly in love, but when he started writing about it on his site he was told ‘either the blog goes, or I do’. He’d published his life on the internet and, Hall protested, ‘it makes people not trust me’. The blog went, but the dilemma persists. Sharing online is great. But if you expect your song of yourself to ‘make people want to be with you’, you’ll be disappointed. \nIn 2002, Heather Armstrong, a young web worker in Los Angeles, had a blog called Dooce. Occasionally, she wrote about her job at a software company. One day an anonymous colleague sent the address of Armstrong’s blog to every vice president at her company – including some whom she’d mocked – and that was the end of her job. Those who study the peculiar social patterns of the networked world have a term to describe what was at work here. They call it the ‘online distribution effect’: that feeling so many of us have that we can get away with saying things online that we’d never dream of saying in person. But the web isn’t some king of alternative reality where we can let our hair down without worrying about repercussions. Our digital lives are interwoven with our real lives. When we pretend otherwise, we risk making terrible, life-changing mistakes.\nArmstrong’s saga had a happy ending. Though she was upset by the experience and stopped blogging for several months afterwards, she ended up getting married and restarting her blog with a focus on her new family. Today she is a star in the burgeoning ranks of ‘mommy bloggers’ and her writing supports her household. Once a poster-child for the wages of web indiscretion, she has become a virtuoso of managed self-revelation. What Armstrong has figured out is something we would all do well to remember: the web may allow us to say anything, but that doesn’t mean we should.",
+    "level": "C2",
+    "diff": 78.06375,
+    "fac": 0.637,
+    "questions": {
+        "1": {
+            "text": "Why does the writer describe a website about public check-ins in the first paragraph?",
+            "answer": "a",
+            "diff": 83.03,
+            "disc": 0.397,
+            "fac": 0.548,
+            "options": {
+                "a": {
+                    "text": "to reinforce the concerns already felt by some people",
+                    "disc": 0.4,
+                    "fac": 0.55
+                },
+                "b": {
+                    "text": "to remind readers to beware of false promises",
+                    "disc": -0.18,
+                    "fac": 0.08
+                },
+                "c": {
+                    "text": "to explain that such sites often have a hidden agenda",
+                    "disc": -0.22,
+                    "fac": 0.26
+                },
+                "d": {
+                    "text": "to show that the risks of internet use are sometimes over estimated",
+                    "disc": -0.17,
+                    "fac": 0.11
+                }
+            }
+        },
+        "2": {
+            "text": "Which phrase echoes the image introduced in the phrase ‘This future has a map’ (line 10)?  ",
+            "answer": "b",
+            "diff": 78.06,
+            "disc": 0.17,
+            "fac": 0.32,
+            "options": {
+                "a": {
+                    "text": "‘they got fired from their jobs’",
+                    "disc": -0.31,
+                    "fac": 0.01
+                },
+                "b": {
+                    "text": "‘navigated celebrity’s temptations and perils’",
+                    "disc": 0.17,
+                    "fac": 0.32
+                },
+                "c": {
+                    "text": "‘scroll off our collective screen’",
+                    "disc": -0.17,
+                    "fac": 0.23
+                },
+                "d": {
+                    "text": "‘are doomed to repost it’",
+                    "disc": 0.05,
+                    "fac": 0.44
+                }
+            }
+        },
+        "3": {
+            "text": "What is the writer’s attitude to the online pioneers mentioned in the second paragraph?",
+            "answer": "b",
+            "diff": 77.02,
+            "disc": 0.253,
+            "fac": 0.69,
+            "options": {
+                "a": {
+                    "text": "He is concerned by the risks they took.",
+                    "disc": -0.13,
+                    "fac": 0.19
+                },
+                "b": {
+                    "text": "He appreciates their unprecedented achievements.",
+                    "disc": 0.25,
+                    "fac": 0.69
+                },
+                "c": {
+                    "text": "He admires their technical skills.",
+                    "disc": -0.06,
+                    "fac": 0.08
+                },
+                "d": {
+                    "text": "He is impressed by the extent of their cooperation.",
+                    "disc": -0.28,
+                    "fac": 0.04
+                }
+            }
+        },
+        "4": {
+            "text": "What does the writer suggest about Justin Hall in the third paragraph?  ",
+            "answer": "a",
+            "diff": 72.86,
+            "disc": 0.289,
+            "fac": 0.774,
+            "options": {
+                "a": {
+                    "text": "He was unusually innovative in his approach.",
+                    "disc": 0.29,
+                    "fac": 0.77
+                },
+                "b": {
+                    "text": "His work was popular for the wrong reasons.",
+                    "disc": -0.16,
+                    "fac": 0.14
+                },
+                "c": {
+                    "text": "He inspired others writing in different fields of study.",
+                    "disc": -0.21,
+                    "fac": 0.05
+                },
+                "d": {
+                    "text": "His work displayed considerable literary skill. ",
+                    "disc": -0.11,
+                    "fac": 0.04
+                }
+            }
+        },
+        "5": {
+            "text": "What point is exemplified by the references to Hall’s project in the fourth paragraph?",
+            "answer": "c",
+            "diff": 77.02,
+            "disc": 0.151,
+            "fac": 0.69,
+            "options": {
+                "a": {
+                    "text": "People usually dislike exhibitionists.",
+                    "disc": -0.06,
+                    "fac": 0.02
+                },
+                "b": {
+                    "text": "Someone’s life can be a form of art.",
+                    "disc": -0.13,
+                    "fac": 0.06
+                },
+                "c": {
+                    "text": "Being too open may be counterproductive.",
+                    "disc": 0.15,
+                    "fac": 0.69
+                },
+                "d": {
+                    "text": "Relationships are always a private matter.",
+                    "disc": -0.03,
+                    "fac": 0.21
+                }
+            }
+        },
+        "6": {
+            "text": "According to the fifth paragraph, what big mistake did Heather Armstrong make?",
+            "answer": "d",
+            "diff": 78.06,
+            "disc": 0.07,
+            "fac": 0.8,
+            "options": {
+                "a": {
+                    "text": "She encouraged her readers to share her blog with others. ",
+                    "disc": -0.16,
+                    "fac": 0.01
+                },
+                "b": {
+                    "text": "She confused reality with fiction.",
+                    "disc": -0.06,
+                    "fac": 0.18
+                },
+                "c": {
+                    "text": "She gave misleading information about her job.",
+                    "disc": 0.1,
+                    "fac": 0.01
+                },
+                "d": {
+                    "text": "She forgot that actions have consequences.",
+                    "disc": 0.07,
+                    "fac": 0.8
+                }
+            }
+        },
+        "7": {
+            "text": "What does the account of Armstrong’s later career suggest about blogging?",
+            "answer": "b",
+            "diff": 82.55,
+            "disc": 0.16,
+            "fac": 0.56,
+            "options": {
+                "a": {
+                    "text": "It is important to choose an appropriate audience.",
+                    "disc": 0.07,
+                    "fac": 0.08
+                },
+                "b": {
+                    "text": "It is possible to blog safely and successfully.",
+                    "disc": 0.16,
+                    "fac": 0.56
+                },
+                "c": {
+                    "text": "It is vital to consider the feelings of others.",
+                    "disc": -0.03,
+                    "fac": 0.11
+                },
+                "d": {
+                    "text": "It is best to avoid controversial subjects when blogging.",
+                    "disc": -0.21,
+                    "fac": 0.25
+                }
+            }
+        },
+        "8": {
+            "text": "In this article, the writer’s aim is to",
+            "answer": "a",
+            "diff": 75.91,
+            "disc": 0.231,
+            "fac": 0.714,
+            "options": {
+                "a": {
+                    "text": "illustrate a point.",
+                    "disc": 0.23,
+                    "fac": 0.71
+                },
+                "b": {
+                    "text": "defend a proposition.",
+                    "disc": -0.06,
+                    "fac": 0.08
+                },
+                "c": {
+                    "text": "describe developments.",
+                    "disc": -0.19,
+                    "fac": 0.1
+                },
+                "d": {
+                    "text": "compare arguments.",
+                    "disc": -0.11,
+                    "fac": 0.11
+                }
+            }
+        }
+    }
+},
+
+{
+    "id": 2,
+    "title": "Big Ideas in Science\nNew scientific discoveries are showing just how little we really know about the universe we live in",
+    "text": "A while back, some scientists began a campaign to warn people about a low-budget film called What the Bleep Do We Know? which used a mixture of documentary and drama to show there’s a lot about our universe we don’t understand. \nHow could any scientist argue with that? They can be a bit arrogant sometimes, but not even the most gung-ho physicist would claim to possess all the keys to the cosmos. Even so, some felt moved to issue public warnings about the film, describing it in terms ranging from the peremptory (‘atrocious’) through to the darkly disturbing (‘It is a very dangerous piece of work’). Clearly, this was a must-see movie. Yet, for the first twenty minutes or so, I couldn’t see what all the fuss was about. Various scientists made pretty innocuous statements about how new discoveries were revealing the universe to be far stranger than anyone had expected.\nIt was when the film moved on to describe some of these discoveries that I did, at last, begin to see what the fuss was really about – discoveries like the ability of water molecules to be affected by thought. I had heard rumours before of how a Japanese researcher had shown that the very shape of a water molecule could be radically altered just by the thoughts of those around it. Yet when the movie described this astonishing discovery, all it gave by way of evidence was some pictures of ice crystals looking nice after being talked to by someone happy, and nasty after being exposed to someone in a bad mood.  \nNow, lots of people do find this kind of evidence pretty compelling. It’s immediate, clear, and apt to prompt wide smiles and uncritical sentiments from the ill-informed, like ‘Hey, man, far out’. Among scientists, though, the typical response has been: ‘Give me a break’. I know what they mean. Sure, the idea that water is affected by thoughts is an amazing claim with huge implications. With no obvious explanation, it also raises the possibility of radical new forces at work in the cosmos. But before we get too carried away, it might be an idea to have some decent proof that the effect is real. And pretty photos of crystals, nice as they undoubtedly are, just don’t cut it. \nThe real problem is that the movie’s claims weren’t bizarre enough. Try this: water molecules owe their properties to a form of energy that appears literally out of nowhere, which appears to be linked to a force now propelling the expansion of the whole universe. And the evidence is more than just a few pretty pictures; it comes from decades of research in laboratories and observatories around the world. The truth is that discoveries are now being made which prove beyond doubt that – just as the film claims – the universe is far stranger than anyone could have believed. Astronomers have found that the universe is made from an unknown form of matter, and is being propelled by a mysterious force known only as ‘dark energy’. \nThe movie aside, discoveries being made on a more down to earth level are no less astounding. Neuroscientists have found evidence that our conscious perception of events lags behind reality by around half a second – a delay we fail to notice because it is deliberately edited out by our brains. Anthropologists now believe they have identified the birthplace of modern humans, and how – and why – they left it to populate the world. And, completing the cosmic circle, some theorists claim to have found links between the existence of life – including ours – on Earth and the fundamental design of the universe. \nDespite what some might have us believe, science shows no signs of reaching completion. On the contrary, we appear to be further away from omniscience than ever. It is now clear that many, if not most, natural phenomena can never be understood to the level once believed possible. The emergence of the concepts of chaos and quantum uncertainty have put unavoidable bounds on what we can know. This has culminated in the efforts of some of the world’s leading theoretical physicists to create the so-called Theory of Everything, which will sum up all the forces and particles of the universe in a single equation. Theories apart, many of us believe the universe is best summed up in a single word: incredible.",
+    "level": "C2",
+    "diff": 81.46714286,
+    "fac": 0.617428571,
+    "questions": {
+        "1": {
+            "text": "What is the writer saying in the sentence ‘Clearly, this was a must-see movie’ (line 7)?",
+            "answer": "b",
+            "diff": 72.39,
+            "disc": 0.319,
+            "fac": 0.805,
+            "options": {
+                "a": {
+                    "text": "He had a personal interest in the subject of the film.",
+                    "disc": -0.26,
+                    "fac": 0.1
+                },
+                "b": {
+                    "text": "He was intrigued by the statements of the scientists.",
+                    "disc": 0.32,
+                    "fac": 0.8
+                },
+                "c": {
+                    "text": "He enjoys films featuring controversial scientists.",
+                    "disc": -0.01,
+                    "fac": 0.02
+                },
+                "d": {
+                    "text": "He expected to learn something new from the film.",
+                    "disc": -0.19,
+                    "fac": 0.07
+                }
+            }
+        },
+        "2": {
+            "text": "What was the writer’s impression of the beginning of the film?",
+            "answer": "a",
+            "diff": 84.96,
+            "disc": 0.417,
+            "fac": 0.54,
+            "options": {
+                "a": {
+                    "text": "It failed to live up to the publicity.",
+                    "disc": 0.42,
+                    "fac": 0.54
+                },
+                "b": {
+                    "text": "He found it was quite hard to follow.",
+                    "disc": -0.35,
+                    "fac": 0.28
+                },
+                "c": {
+                    "text": "He was surprised at how badly researched it was.",
+                    "disc": 0.05,
+                    "fac": 0.14
+                },
+                "d": {
+                    "text": "It confirmed what people had been saying about the film.",
+                    "disc": -0.34,
+                    "fac": 0.05
+                }
+            }
+        },
+        "3": {
+            "text": "What is the writer’s tone in the third paragraph when describing the film’s treatment of a discovery about water molecules? ",
+            "answer": "d",
+            "diff": 78.52,
+            "disc": 0.254,
+            "fac": 0.69,
+            "options": {
+                "a": {
+                    "text": "shocked",
+                    "disc": -0.05,
+                    "fac": 0.07
+                },
+                "b": {
+                    "text": "unbelieving",
+                    "disc": -0.22,
+                    "fac": 0.15
+                },
+                "c": {
+                    "text": "puzzled",
+                    "disc": -0.09,
+                    "fac": 0.09
+                },
+                "d": {
+                    "text": "unimpressed",
+                    "disc": 0.25,
+                    "fac": 0.69
+                }
+            }
+        },
+        "4": {
+            "text": "In the fourth paragraph, why does the writer identify with the scientists’ views?",
+            "answer": "c",
+            "diff": 84.02,
+            "disc": 0.15,
+            "fac": 0.563,
+            "options": {
+                "a": {
+                    "text": "He thinks photographic evidence is often unreliable.",
+                    "disc": -0.08,
+                    "fac": 0.21
+                },
+                "b": {
+                    "text": "He dislikes evidence that relies on dramatic effect.",
+                    "disc": 0.0,
+                    "fac": 0.1
+                },
+                "c": {
+                    "text": "He is concerned about the lack of concrete evidence.",
+                    "disc": 0.15,
+                    "fac": 0.56
+                },
+                "d": {
+                    "text": "He feels that the evidence in the film is distorted.",
+                    "disc": -0.13,
+                    "fac": 0.13
+                }
+            }
+        },
+        "5": {
+            "text": "Why does the writer state that ‘the movie’s claims weren’t bizarre enough’ (line 23)?",
+            "answer": "d",
+            "diff": 83.55,
+            "disc": 0.225,
+            "fac": 0.575,
+            "options": {
+                "a": {
+                    "text": "It ignored research which contradicted its central theme.",
+                    "disc": -0.11,
+                    "fac": 0.06
+                },
+                "b": {
+                    "text": "It avoided ideas which were too far-fetched for its audience.",
+                    "disc": -0.04,
+                    "fac": 0.31
+                },
+                "c": {
+                    "text": "It made statements which have been disproved by new discoveries.",
+                    "disc": -0.26,
+                    "fac": 0.05
+                },
+                "d": {
+                    "text": "It failed to describe actual findings which relate to its conclusion.",
+                    "disc": 0.22,
+                    "fac": 0.57
+                }
+            }
+        },
+        "6": {
+            "text": "In the sixth paragraph, what point in exemplified by references to various types of experts?",
+            "answer": "c",
+            "diff": 79.06,
+            "disc": 0.281,
+            "fac": 0.678,
+            "options": {
+                "a": {
+                    "text": "Cooperation between different disciplines is needed to make new discoveries.",
+                    "disc": -0.25,
+                    "fac": 0.14
+                },
+                "b": {
+                    "text": "A human brain is as complex as any other structure discovered by scientists.",
+                    "disc": -0.11,
+                    "fac": 0.05
+                },
+                "c": {
+                    "text": "New scientific discoveries can be noteworthy regardless of scale. ",
+                    "disc": 0.28,
+                    "fac": 0.68
+                },
+                "d": {
+                    "text": "We can best discover how the universe works by studying ourselves.",
+                    "disc": -0.07,
+                    "fac": 0.14
+                }
+            }
+        },
+        "7": {
+            "text": "What is the writer’s main point in the final paragraph?",
+            "answer": "b",
+            "diff": 87.77,
+            "disc": -0.019,
+            "fac": 0.471,
+            "options": {
+                "a": {
+                    "text": "We have found that scientific progress is slowing down.",
+                    "disc": 0.0,
+                    "fac": 0.0
+                },
+                "b": {
+                    "text": "We know far less about everything than we thought we did.",
+                    "disc": -0.02,
+                    "fac": 0.47
+                },
+                "c": {
+                    "text": "We now have a far clearer idea of the limits to our knowledge.",
+                    "disc": 0.05,
+                    "fac": 0.49
+                },
+                "d": {
+                    "text": "We are continually discovering things we do not understand. ",
+                    "disc": -0.09,
+                    "fac": 0.03
+                }
+            }
+        }
+    }
+}

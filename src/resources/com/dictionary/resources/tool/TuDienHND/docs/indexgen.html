@@ -1,0 +1,58 @@
+<html>
+<head>
+<title></title>
+<meta name="author" content="duc">
+<meta name="generator" content="Ulli Meybohms HTML EDITOR">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+
+<h1>Editing dictionaries</h1>
+
+The data file and the index file used by the server are generated from
+base data in plain text or HTML format. These base data can be edited
+with a UTF-8 capable editor. After editing you need to generate the
+data and index file again. The following example explains how it can
+be done for Tu Dien Su Dia. The data for TD Su Dia are contained in
+several text files: utf8_a.txt, utf8_b1.txt, utf8_b2.txt ...
+
+<ul>
+
+<li>The first step is to create a file (e.g. tdsudia.txt) containing
+the names of the files. (In this way you can create the dictionary
+using only parts of the data if you do not want to include all
+utf8_*.txt files).</li>
+
+<li>run td-index.bat</li>
+
+<li>Click "Find" and select tdsudia.txt. The field "List of source
+files" will now contain the fully qualified name of tdsudia.txt, and
+the fields "Data file", "Index file" and "Config file" will contain
+the names tdsudia.dict, tdsudia.index and tdsudia.ini (with full
+path). It is recommended that you keep these defaults. Make sure to
+remove old versions of the files tdsudia.dict and tdsudia.index</li>
+
+<li>Select the format of the headwords used by this dictionary. In
+this case it is headword#1# (TD Su Dia). It is how the headwords are
+marked in the files utf8_*.txt (When editing them please use this
+format for new entries: headword## if there is only one definition or
+headword#n# if there are more.)</li>
+
+<li>You can give the dictionary an ID (in the ID field) and a name
+(the name field), e.g., vsd as ID and TD Su Dia as name.</li>
+
+<li>Click "Run". After a while the data, index and configuration files
+are created.</li>
+
+<li>Now you can use the newly edited dictionary by augmenting
+vietdict.bat with the config file tdsudia.ini (If you move the data
+and index files to new locations please modify the ini file
+accordingly.) </li>
+
+</ul>
+
+Note: if you replace vietdict23.jar with vietdict24.jar in
+vietdict.bat, the file form.html will be recreated for you every time
+the server is started.
+
+</body>
+</html>

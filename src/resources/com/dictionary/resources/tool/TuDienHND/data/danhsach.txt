@@ -1,0 +1,11 @@
+EV/anhviet109K.ini
+EV/vietanh.ini
+FV/phapviet.ini
+FV/vietphap.ini
+GV/dv45K.ini
+GV/vd12K.ini
+VV/vv.ini
+NV/ngaviet.ini
+NV/nv20K.ini
+WN/wn.ini
+FOLDOC/foldoc.ini

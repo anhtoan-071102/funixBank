@@ -1,0 +1,1 @@
+java -cp vietdict.jar org.dict.server.ShutDown

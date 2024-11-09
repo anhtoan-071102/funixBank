@@ -1,0 +1,28 @@
+<script type="text/javascript" language="JavaScript" src="/vietuni.js"></script>
+<script type="text/javascript" language="JavaScript">
+	<!--
+	initVinaseekTyper(1,'utf8');
+	//-->
+</script>
+
+<FORM name="editForm" method=POST action="/td" target="display">
+<INPUT type=hidden NAME="action" value="save">
+<INPUT type=hidden NAME="db" value="$db">
+<b>T&#x1EEB;:</b><br>
+<INPUT SIZE=30 NAME="word" value="$word" onkeyUp='telexingVietUC(this,event);'><br>
+<b>Ngh&#x129;a:</b><br>
+<textarea name="def" cols=60 rows=10 onkeyUp='telexingVietUC(this,event);'>
+-
+</textarea>
+<br>
+<b>G&#x00F5; ti&#x1EBF;ng Vi&#x1EC7;t:</b>
+<input type=radio name="k" value="telex" onFocus="setTypingMode(1);">Telex &nbsp;
+<input type=radio name="k" value="vni" onFocus="setTypingMode(2);">VNI &nbsp;
+<input type=radio name="k" value="viqr" onFocus="setTypingMode(3);">VIQR &nbsp;
+<input type=radio name="k" value="off" onFocus="setTypingMode(0);" checked>OFF &nbsp;
+<p>
+<b><input type="SUBMIT" value="Submit"></b>&nbsp;
+<b><input type="RESET" value="Reset"></b>
+</p>
+</FORM>
+

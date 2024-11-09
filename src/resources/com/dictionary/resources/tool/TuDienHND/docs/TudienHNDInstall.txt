@@ -1,0 +1,52 @@
+﻿Nếu bạn thường xuyên dùng chương trình từ điển trên hệ điều hành Windows (NT, 2000 hoặc XP) thì có thể cài đặt một Windows service, khi đó chương trình sẽ được tự động khởi động khi bật máy. Thực hiện các bước sau:
+
+1. Kiểm tra xem đang cài đặt phiên bản Java nào
+
+- Mở một command prompt (bấm Start -> Run và gõ lệnh cmd)
+
+- Trong cửa sổ này gõ: java -version
+
+- Nếu trên máy tính của bạn có cài đặt một phiên bản mới của Java thì dòng lệng trên sẽ cho kết quả tương tự như:
+
+java version "1.4.2_05"
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.4.2_05-b04)
+Java HotSpot(TM) Client VM (build 1.4.2_05-b04, mixed mode)
+
+- Nếu thấy báo lỗi kiểu như "Command not found" hoặc phiên bản Java của bạn hơi cũ (version 1.2.2 chẳng hạn) thì cần cài đặt phiên bản mới. Bạn có thể tải Java từ địa chỉ java.sun.com hoặc cài từ đĩa CD bán trên thị trường. Sau khi cài đặt xong gõ lại lệnh 'java -version' để kiểm tra lại
+
+2. Trong thư mục C:\java\dict nơi bạn cài đặt từ điển có 2 files TuDienHND.exe và TuDienHNDInstall.bat (được bung ra từ WebDict1.zip). Nhấn chuột phải vào TuDienHNDInstall.bat và chọn Edit để sửa chữa file này. Có 2 dòng cần sửa:
+
+set JVM=C:\j2sdk1.4.2_05\jre\bin\server\jvm.dll
+set DICT_HOME=C:\java\dict\
+
+Bạn hãy xem đã  cài đặt Java (JDK hoặc JRE) ở thư mục nào để sửa dòng 1. Bạn có thể dùng chức năng tìm kiếm của Windows để tìm file jvm.dll (bấm Start -> Search). File này nằm trong thư mục cài đặt JDK (VD: C:\j2sdk1.4.2_05\jre\bin\server\jvm.dll) hoặc JRE (C:\Program Files\Java\j2re1.4.2_05\bin\client\jvm.dll)
+
+Nếu bạn cài từ điển vào C:\java\dict\ thì không cần sửa dòng thứ 2.
+
+3. Cài đặt service bằng cách nhấn chuột kép vào TuDienHNDInstall.bat
+
+4. Khởi động lại máy tính. Chương trình từ điển đã được khởi động, bạn có thể tra từ qua địa chỉ http://localhost:8080/ quen thuộc.
+
+C:\Windows\java là thư mục hệ thống, không nên cài chương trình từ điển vào C:\Windows\java\dict. Bạn có thể tạo một thư mục C:\java (hoặc bất kỳ tên nào khác như C:\TuDien) và chuyển toàn bộ thư mục dict trong C:\Windows\java\ sang C:\java\. Khi mở Explorer để xem thư mục C:\java\dict\ bạn thấy nó phải có cấu trúc như sau:
+
+- Trong C:\java\dict có các thư mục con jre, EV, FV, DV
+
+- Trong C:\java\dict có các tệp startdict.bat, vietdict31.jar, ev.ini, fv.ini. dv.ini, vài tệp dạng HTML và một số tệp khác.
+
+- Trong thư mục C:\java\dict\jre có thư mục con bin, trong đó có một file jre.exe
+
+Nếu cấu trúc thư mục đúng như vậy thì bạn có thể khởi động chương trình bằng cách nhấn chuột kép vào startdict.bat
+
+Để khỏi phải add các từ điển khác bạn chỉ cần thêm fv.ini và dv.ini vào dòng lệnh khởi động chương trình trong startdict.bat. Nhấn chuột phải vào startdict.bat, chọn Edit và sửa dòng lệnh đầu tiên thành:
+
+start jre\bin\jre -Dhttp_port=8080 -mx32M -cp vietdict31.jar vietdict.server.VietdictServer ev.ini fv.ini dv.ini
+
+(Chú ý: toàn bộ lệnh viết trên 1 dòng!)
+
+Để cửa sổ không hiện ra có thể sửa dòng lệnh thành:
+
+start jre\bin\jre -Ddaemon=true -Dhttp_port=8080 -mx32M -cp vietdict31.jar vietdict.server.VietdictServer ev.ini fv.ini dv.ini
+
+Để tạo Link tới chương trình từ điển trên Desktop: nhấn chuột phải vào startdict.bat, chọn Send to -> Desktop (Create link). Sau đó chỉ cần ấn chuột kép vào biểu tượng trên Desktop là có thể khởi động từ điển.
+
+Nếu bạn thường xuyên dùng chương trình từ điển trên hệ điều hành Windows (NT, 2000 hoặc XP) thì có thể cài đặt một Windows service, khi đó chương trình sẽ được tự động khởi động khi bật máy. Xem chi tiết tại http://jdictd.sourceforge.net/cgi-bin/yabb/YaBB.cgi?board=webdict_install;action=display;num=1094649705;start=0#0

@@ -1,0 +1,86 @@
+﻿<html>
+<head>
+<title>Ho Ngoc Duc's Dictionary</title>
+<STYLE type=text/css>
+  a:link {color: #0066cc; TEXT-DECORATION: none}
+  a:visited {color: #0066cc; TEXT-DECORATION: none}
+  .indented {padding-left: 20pt}
+  .userDef {background-color: #FFFFCC}
+  .edit {background-color: #FFCCCC}
+</STYLE>
+<script language="JavaScript">
+//<!--
+function audio1(word) {
+	location.href='http://www.m-w.com/cgi-bin/dictionary?'+escape(word)+' ';
+}
+
+function audio2(files) {
+	w = document.trans.word.value;
+	window.open('/vnaudio?files='+files+'&word='+encodeURIComponent(w),'VnAudio','toolbar=no,status=no,scrollbars=yes,location=no,menubar=no,directories=no,titlebar=no,width=300,height=200');
+}
+
+function sync() {
+	if (!parent.form || !document.trans) {
+		window.focus();
+		return;
+	}
+	parent.form.document.f.word.value = document.trans.word.value;
+	parent.form.document.f.word.focus();
+	parent.form.document.f.word.select();
+}
+
+function nocontextmenu()  // this function only applies to IE4, ignored otherwise.
+{
+	event.cancelBubble = true
+	event.returnValue = false;
+	return false;
+}
+
+function norightclick(e) // This function is used by all others
+{
+	if (window.Event) { // Netscape
+		if (e.which == 2 || e.which == 3) {
+			lookupSelected();
+			return false;
+		}
+	} else if (event.button == 2 || event.button == 3) {
+		lookupSelected();
+		event.cancelBubble = true
+		event.returnValue = false;
+		return false;
+	}
+}
+
+function getSelectedText() {
+	if (window.getSelection) return window.getSelection();
+	else if (document.getSelection) return document.getSelection();
+	else if (document.selection) {
+		var sel = document.selection.createRange().text;
+		return sel.replace(new RegExp('([\\f\\n\\r\\t\\v ])+', 'g')," ");
+	}
+	else return "";
+}
+
+function lookupSelected() {
+	var txt = getSelectedText();
+	if (txt == "") return;
+	//txt = txt.replace(new RegExp('([\\f\\n\\r\\t\\v ])+', 'g')," ");
+	if (!parent.form) {
+		location.href='td?db=!&word='+encodeURIComponent(txt);
+	}
+	parent.form.document.f.word.value = txt;
+	parent.form.document.f.submit();
+}
+
+if (window.Event) {
+	document.captureEvents(Event.MOUSEUP);
+}
+document.oncontextmenu = nocontextmenu;  // for IE5+
+document.onmousedown = norightclick;  // for all others
+// -->
+</script>
+</head>
+<body onLoad='sync();'>
+<!-- Lookup result -->
+</body>
+</html>

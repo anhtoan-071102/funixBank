@@ -1,0 +1,124 @@
+<html>
+<head>
+<title></title>
+<meta name="author" content="Ho Ngoc Duc">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+
+<h1>Creating custom dictionaries</h1>
+
+The data file and the index file used by the server are generated from
+base data in plain text or HTML format. These base data can be edited
+with a UTF-8 capable editor. After editing you need to generate the
+data and index file. The following example explains how you can create
+an Esperanto - Vietnamese dictionary. First, you need to extract the
+file WebDict1.zip to get the file vietdictXX.jar (XX is the version number)
+
+<ul>
+
+<li>  Create data for this dictionary and save them in
+the text files: a.txt, b1.txt, b2.txt ... The entries should be in the following format:
+
+<pre>
+@headword
+* part of speech
+- definition 1
+= example explaining definition 1 + translation of example
+- definition 2
+= example explaining definition 2 + translation of example
+* part of speech
+- definition 3
+</pre>
+
+</li>
+
+<li>The next step is to create a file (e.g. eo2vn.cfg) containing
+the names of the files. (In this way you can create the dictionary
+using only parts of the data if you do not want to include all
+the input files).</li>
+
+<li> Run the command:
+
+<pre>
+java -cp vietdictXX.jar vietdict.tools.DBIndexGenerator
+</pre>
+
+<li>Click "Find" and select eo2vn.cfg. The field "List of source
+files" will now contain the fully qualified name of eo2vn.cfg, and
+the fields "Data file", "Index file" and "Config file" will contain
+the names eo2vn.dict, eo2vn.index and eo2vn.ini.
+It is recommended that you keep these defaults. Make sure to
+remove old versions of the files eo2vn.dict, eo2vn.index</li>
+
+<li>Select the format of the headwords used by this dictionary. In
+this case it is: @headword /pronunciation/ (TD Viet-Anh-Phap)</li>
+
+<li>You can give the dictionary an ID (in the ID field) and a name
+(the name field), e.g., eo2vn as ID and "Esperanto - Vietnamese" as name.</li>
+
+<li>Click "Run". After a while the data, index and configuration files
+are created.</li>
+
+<li>Now you can use the newly edited dictionary by augmenting
+vietdict.bat with the config file eo2vn.ini (If you move the data
+and index files to new locations please modify the ini file
+accordingly.) </li>
+
+</ul>
+
+
+<H1>Cach tao tu dien moi</H1>
+
+Truoc het, ban can download WebDict1.zip va extract vietdictXX.jar (XX is the version number).
+Cac buoc tiep theo de tao tu dien nhu sau:
+
+<ol>
+
+<li> Nhap du lieu cho tu dien bang text editor va chua du lieu vao 1 file mydict.txt,
+tot nhat duoi dang UTF-8. Moi entry co dang nhu sau:
+
+<pre>
+@headword
+* tu loai (noun, verb...)
+- dinh nghia 1
+= cau vi du cho dinh nghia 1 + nghia cua cau do
+- dinh nghia 2
+= cau vi du cho dinh nghia 2 + nghia cua cau do
+* tu loai
+- dinh nghia 3
+</pre>
+
+</li>
+
+<li> Tao text file mydict.cfg, trong file nay liet ke tat ca cac input
+files duoc dung, moi dong 1 file. Trong truong hop chi co 1 file du
+lieu thi danh sach nay chi co 1 dong voi noi dung: mydict.txt </li>
+
+<li> Chay lenh:<br>
+java -cp vietdictXX.jar vietdict.tools.DBIndexGenerator
+
+<li> Chuong trinh se hien len 1 cua so de chon lua danh sach cac nguon du lieu.
+Khi do:
+
+<ul>
+<li> "List of Source files" chon file mydict.cfg nay
+<li> ID: chon ID cho tu dien moi, VD: mydict
+</ul>
+
+</li>
+
+<li> Bam Run se tao index file (mydict.index), data file (mydict.dict) va
+ini file (mydict.ini)
+
+<li> Su dung TD moi bang lenh:<br>
+
+java -Ddebug=true -DBUFFER=10 -Dhttp_port=8080 -cp vietdictXX.jar mydict.ini
+
+<p> Ban se nhin thay thong bao: server started...<br>
+Bay gio co the dung browser vao dia chi http://localhost:8080 de tra
+tu dien
+
+</ol>
+
+</body>
+</html>

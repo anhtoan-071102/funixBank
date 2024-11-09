@@ -1,0 +1,12 @@
+# TuDienHND download files, version 4.0
+FVDP.zip	20050113	Dictionary program
+AnhViet.zip	20040705	English-Vietnamese (Anh-Vie^.t) 109.000 words, 5.2 MB
+VietAnh.zip	20040610	Vietnamese-English (Vie^.t-Anh) 23.000 words, 0.9 MB
+PhapViet.zip	20040610	French-Vietnamese (Pha'p-Vie^.t) 48.000 words, 2.7 MB
+VietPhap.zip	20040610	Vietnamese-French (Vie^.t-Pha'p) 39.000 words, 1.9 MB
+DucViet.zip	20040610	German-Vietnamese (Ddu+'c-Vie^.t) 45.000 words, 4.6 MB
+VietDuc.zip	20040610	Vietnamese-German (Vie^.t-Ddu+'c) 12.000 words, 0.4 MB
+VietViet.zip	20040809	Vietnamese dictionary (TD tie^'ng Vie^.t), 30.000 words, 1.9 MB
+NaUyViet.zip	20040726	Norwegian-Vietnamese (Na Uy - Vie^.t) 20.000 words, 1.1 MB
+WordNet.zip	20030927	WordNet (English dictionary) 155.000 words, 10.1 MB
+Foldoc.zip	20030927	Free On-Line Dictionary of Computing, 14.000 defs, 2.3 MB

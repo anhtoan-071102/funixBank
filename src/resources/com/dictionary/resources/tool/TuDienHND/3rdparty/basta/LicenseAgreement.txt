@@ -1,0 +1,54 @@
+END USER LICENSE AGREEMENT FOR BASTA COMPUTING SOFTWARE
+
+IMPORTANT: Carefully read this End User License Agreement ("Agreement") before installing, copying or using this Basta Computing, Inc. ("Basta") software product ("Software"). Proceeding to do so indicates your acceptance of all the terms and conditions of this Agreement. If you do not agree to these terms and conditions, you are not authorized to use the Software.
+
+
+COPYRIGHT
+
+Copyright (C) 1996-1999 Basta Computing, Inc.
+All rights reserved.
+
+This software product is a copyrighted work and is protected by United States and international copyright laws and treaties.
+
+This software product is licensed, not sold. It is and shall remain at all times the absolute and unrestricted property of Basta. Nothing in this Agreement shall prejudice, impair, jeopardize or otherwise adversely affect the rights of Basta as owner of the Software.
+
+
+USE
+
+The Software can only be used for the purposes described in the help and other advertising material pertaining to the Software and published by Basta.
+
+Reverse engineering, decompiling, disassembling or otherwise attempting to discover the source code of the Software is illegal and shall constitute a violation of this Agreement.
+
+No portion of the Software, including but not limited to, programs, algorithms, codes, texts, images, or sounds may be modified, adapted, translated, copied, stored, distributed, used or accessed in any way except as detailed in this Agreement.
+
+
+DISTRIBUTION
+
+This Software cannot be re-sold or used in any profit-making activities, including but not limited to, distribution as part of a commercial product or service, without the prior written consent of Basta.
+
+Copies of the Software that are intended for distribution purposes must be obtained from Basta or downloaded from its Internet web site, and distributed as-is, in their original packaging, including all the copyright and other proprietary notices pertaining to, and included in the Software.
+
+
+DISCLAIMER OF WARRANTY
+
+Our products and services are provided without warranty of any kind, either express or implied, that they are fit for any use whatsoever. Their authors cannot be held liable for any special, direct, indirect, incidental or consequential damages whatsoever (including but not limited to loss of profit) arising out of their use, or inability to do so.
+
+
+TERMINATION
+
+If you breach, default, violate or fail to comply with any of the provisions contained herein, Basta shall have the right to terminate this Agreement forthwith. Further, you shall be obligated to discontinue using or distributing the Software immediately. Further, Basta shall have the right to claim and recover from you all losses and damages, whatsoever and howsoever arising, whether directly or indirectly, out of or in connection with any such breach, default, violation and non-compliance. Further, you shall also be liable to indemnify Basta for and against all costs and expenses incurred by Basta including, but not limited to, court and legal fees.
+
+Upon the termination of this Agreement, you shall not be entitled to claim or recover from Basta any amount paid to Basta prior to such termination.
+
+The rights and obligations under this Agreement will remain in effect after its termination.
+
+
+GENERAL
+
+Failure of Basta to enforce its rights with respect to any violation of this Agreement will not act as a waiver for Basta to later exercise such rights.
+
+Should any provision of this Agreement be in conflict with any law governing this Agreement, it will be deemed stricken from the Agreement and the remaining provisions will remain in effect.
+
+This Agreement shall be binding upon the parties hereto and their respective successors and permitted assigns.
+
+This Agreement shall be construed, interpreted, implemented and governed in accordance with the laws in force in the state of Washington, United States of America. You shall submit to the exclusive jurisdiction of the courts in Washington with respect of any claim, controversy, difference or dispute arising from or in connection with this Agreement.
